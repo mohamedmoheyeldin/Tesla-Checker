@@ -1,0 +1,31 @@
+{
+  "name": "cypress-template",
+  "version": "1.0.0",
+  "description": "Cypress Project With Some Custom Work As Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run.headed": "cypress run --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedmoheyeldin/Cypress-Template.git"
+  },
+  "author": "Mohamed Moheyeldin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedmoheyeldin/Cypress-Template/issues"
+  },
+  "homepage": "https://github.com/mohamedmoheyeldin/Cypress-Template#readme",
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "cypress-axe": "^1.5.0",
+    "cypress-filters": "^1.2.4",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "cypress-parallel": "^0.14.0"
+  }
+}
